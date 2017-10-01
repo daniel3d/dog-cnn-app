@@ -14650,6 +14650,8 @@ InceptionV3 predict breed: Welsh_springer_spaniel
 <h3 id="(IMPLEMENTATION)-Test-Your-Algorithm-on-Sample-Images!">(IMPLEMENTATION) Test Your Algorithm on Sample Images!<a class="anchor-link" href="#(IMPLEMENTATION)-Test-Your-Algorithm-on-Sample-Images!">&#182;</a></h3><p>Test your algorithm at least six images on your computer.  Feel free to use any images you like.  Use at least two human and two dog images.</p>
 <p><strong>Question 6:</strong> Is the output better than you expected :) ?  Or worse :( ?  Provide at least three possible points of improvement for your algorithm.</p>
 <p><strong>Answer:</strong></p>
+<p>I was really impresed from the results, im still not sure why allot of human faces are recognized as Dachshund.</p>
+<p>Ways to improve will be to train the model on bigger dataset, in the moment we dont handle multiple persons or dogs in the image some of the false positives form the FaceNet detector was failing becose in the image that was classified was a dog and a human at the same time, look for better activation function than softmax.</p>
 
 </div>
 </div>
